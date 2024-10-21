@@ -6,6 +6,93 @@
     <title>SINGLE PAGE WEB APPLICATION</title>
 </head>
 <body>
-    <script> src = "src/.index.js"</script>
-</body>
+
+    <h1>Single Page Web Application</h1>
+    <l1>interactive webpage</l1>
+    <li>log in page</li>
+    <li>validation</li>
+    <link href = https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css>
+    <link href = https://fonts.googleapis.com/css?familyCatamaran:300,400>
+    <link href = https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+    <link rel="stylesheet" href = styles.css>
 </html>
+
+<div class="form-container">  
+    <div class="user-signup-button icon" data-form="signup-form"><i class="fa fa-user-plus"></i></div>
+    <div class="supplier-login-button icon" data-form="supplier-login-form"><i class="fa fa-truck"></i></div>
+    
+    <div class="login-form form">
+      <form>
+        <div class="title">User Login</div>
+        <div class="row">
+          <div class="small-12 column">
+            <label><span>Username</span>
+              <input type="text" class="input" name="" />
+            </label>
+          </div>
+          <div class="small-12 column">
+            <label><span>Password</span>
+              <input type="password" class="input" name="" />
+            </label>
+          </div>
+          <div class="small-12 column text-center">
+            <input type="submit" class="button" value="LOG IN" />
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <div class="signup-form form form-alt">
+      <form>
+        <div class="close-button"><i class="fa fa-times"></i></div>
+        <div class="title">User Signup</div>
+        <div class="row">
+          <div class="small-12 column">
+            <label><span>Username</span>
+              <input type="text" class="input" name="" />
+            </label>
+          </div>
+          <div class="small-12 column">
+            <label><span>Password</span>
+              <input type="password" class="input" name="" />
+            </label>
+          </div>
+          <div class="small-12 column">
+            <label><span>Re-type Password</span>
+              <input type="password" class="input" name="" />
+            </label>
+          </div>
+          <div class="small-12 column text-center">
+            <input type="submit" class="button" value="SIGN UP" />
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <div class="supplier-login-form form form-alt">
+      <form>
+        <div class="close-button"><i class="fa fa-times"></i></div>
+        <div class="title">Supplier Login</div>
+        <div class="row">
+          <div class="small-12 column">
+            <label><span>Username</span>
+              <input type="text" class="input" name="" />
+            </label>
+          </div>
+          <div class="small-12 column">
+            <label><span>Password</span>
+              <input type="password" class="input" name="" />
+            </label>
+          </div>
+          <div class="small-12 column text-center">
+            <input type="submit" class="button" value="LOG IN" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  </html>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src = "src/index.js"></script>
+</body>
+
